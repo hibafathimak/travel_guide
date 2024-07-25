@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Noto Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    background-image: url(https://www.tataaig.com/s3/senior-citizens-travel-insurance_cd09659466.jpeg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+.hero-heading{
+    margin-top: 30px;
+    position: absolute; 
+    color: white;
+    right: 0;
+    font-weight: 600;
+    /* margin-right: 150px; */
+    font-size: 80px;
+    text-align: center;
+}
+.hero-hd{
+    font-family: "Playwrite BE VLG", cursive;
+    font-weight: 400;
+}
+#head{
+
+    color: rgb(255, 157, 0);
+    font-size:60px;
+}
+.enquiry-button{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    bottom: 50PX;
+    left: 45%;
+    position: absolute;
+}
+.form{
+    width: 100%;
+    border: none;
+    border-bottom:ridge 1px;
+    height: 50px;
+    text-align: center;
+}
+#form-textarea{
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+#submit{
+    background-color: blueviolet;
+    color: white;
+}
+.section3,.section2{
+    margin-top: 50px;
+    text-align: center;
+}
+.card-body h5{
+    color: brown;
+}
+.btn1{
+    background-color: rgb(51, 51, 251);
+    color: white;
+    font-size: 20px;
+    width: 180px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 8px;
+}
+.btn1:hover{
+    background-color: brown;
+}
+.c-img{
+    height: 600px;
+}
+.c-hd{
+    font-size: 80px;
+    text-shadow: rgb(255, 0, 0) 10px 0px 10px;
+}
+.vdo{
+    width: 45%;
+}
+.grid{
+    width: 45%;
+    margin-top: 130px;
+    height: 600px;
+    display: grid;
+    gap: 6px;
+    grid-template-columns: 25% 25% 40%;
+    grid-template-rows: 25% 25% 25%;
+}
+.grid-img{
+    width: 100%;
+    height: 100%;
+}
+.img-s{
+    grid-row: span 2;
+}
+.section5{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section5 hr
+{
+    width: 60%;
+}
+.cards{
+    margin: 50px 0px;
+    width: 100%;
+
+}
+.cd{
+    margin: 0px 40px;
+    border:ridge;
+    border-radius: 20px;
+    width: 260px;
+    height: 300px;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.cd img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.cd-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    color: white;
+}
+.cd-content:hover{
+    opacity: 1;
+
+}
+.section6{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.cards2{
+    margin: 45px 0px;
+
+}
+.cd2{
+    width: 200px;
+    height: 240px;
+    border: ridge;
+    background-color: rgb(234, 234, 234);
+    border-radius: 20px;
+    padding: 20px;
+}
+.cd2-img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.section7{
+    background-color: bisque;
+}
+.cd3{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+.cursive{
+    font-family: "Playwrite BE VLG", cursive;
+    color: brown;
+}
+footer{
+    background-color: rgb(40, 40, 70);
+    color:chocolate;
+    width: 100%;
+    padding-top: 30px;
+}
+.f-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.f3{
+    width: 300px;
+}
+@media (max-width:1024px)
+{
+    .hero-heading{
+    font-size: 60px;
+    }
+    .vdo{
+        width: 100vw;
+    }
+    .grid{
+        width: 100vw;
+    }
+}
